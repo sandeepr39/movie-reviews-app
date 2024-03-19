@@ -1,0 +1,83 @@
+Design Document
+
+Project Title
+Movie-Review Java Full Stack Application using Spring Boot, React, and MongoDB
+
+Introduction
+This design document outlines the architecture and component design for a full-stack application.
+
+System Architecture
+The application follows a three-tier architecture:
+•	Presentation Layer (Frontend):
+•	Implemented using React.
+•	Provides the user interface and handles user interactions.
+•	Communicates with the backend via HTTP requests.
+•	Business Logic Layer (Backend):
+•	Built with Java Spring Boot.
+•	Manages the RESTful API endpoints.
+•	Handles business logic and data manipulation.
+•	Data Access Layer (Database):
+•	Utilizes MongoDB hosted on MongoDB Atlas.
+•	Stores and retrieves data as required by the backend.
+
+Component Design
+Backend Components
+•	Controller: Manages HTTP request mappings and delegates tasks to services.
+•	Service: Contains the business logic and interacts with the repository layer.
+•	Repository: Interface for database operations, leveraging Spring Data MongoDB.
+•	Model: Represents the data structure and annotations for MongoDB collections.
+Frontend Components
+•	Components: React components for each part of the application (e.g., headers, forms, lists).
+•	Services: Handles the sending and receiving of HTTP requests to the backend.
+•	State Management: Utilizes React state and context for managing application state.
+Database Schema
+•	Collections: Defined as per the application's data requirements.
+•	Documents: Structured to store data related to the application entities.
+
+Communication
+•	The frontend and backend communicate via HTTP GET and POST requests.
+•	JSON is used as the data interchange format.
+
+Conclusion
+This design document provides a blueprint for the development of the full-stack application. It ensures a clear understanding of the system's structure and components, facilitating a smooth development process.
+
+
+
+
+
+Project Report
+Title
+Full Stack Development with Java Spring Boot, React, and MongoDB
+
+Course Summary
+This course provided comprehensive training on full-stack development, focusing on integrating MongoDB as a database, Java Spring Boot for the backend, and React for the frontend. The course was led by Farhan Hasin Chaudry, who covered backend development, and Gavin Lon, who was responsible for frontend instruction.
+
+Objectives
+•	To educate students on full-stack development practices.
+•	To demonstrate the creation of a RESTful API using Java Spring Boot.
+•	To guide students through the process of setting up a MongoDB database using MongoDB Atlas.
+•	To teach the development of a frontend application using React.
+•	To emphasize the importance of separation of concerns and loosely coupled architecture in software development.
+
+Technologies Used
+•	MongoDB Atlas: For hosting the MongoDB database in the cloud.
+•	Java Spring Boot: For creating the backend logic and RESTful API.
+•	React: For developing the dynamic frontend interface.
+•	HTTP Requests: To facilitate server communication using GET and POST methods.
+
+Project Structure
+The project was divided into two main components:
+•	Backend: A Java Spring Boot application that handles HTTP requests, processes them, and interacts with the MongoDB database.
+•	Frontend: A React application that provides a user interface for sending requests to the backend and displaying the data from MongoDB.
+
+Outcomes
+The course successfully taught students how to:
+•	Set up a full-stack development environment.
+•	Develop a RESTful API with Java Spring Boot.
+•	Connect a React frontend with a Spring Boot backend.
+•	Implement CRUD operations using MongoDB as the data store.
+
+
+Conclusion
+This "Movie-Review” application development provided us a solid foundation to become proficient in full-stack development using the tech-stack “Java Spring Boot, React, and MongoDB”. Also, this project serves as a practical example of how to build and integrate different layers of a web application.
+
